@@ -6,6 +6,15 @@
 
 
 {% block body %}
+    <div class="sea-creature-container">
+        <div class="genus-photo"></div>
+        <div class="genus-details">
+            <dl class="genus-details-list">
+                <dt>Fun Fact:</dt>
+                <dd>{{ funFact|raw }}</dd>
+            </dl>
+        </div>
+    </div>
     <div id="js-notes-wrapper"></div>
 {% endblock %}
 
